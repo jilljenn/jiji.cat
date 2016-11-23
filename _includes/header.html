@@ -1,0 +1,60 @@
+<header>
+    <div class="container">
+        <div class="profile">
+            <div class="social">
+                <a href="http://twitter.com/jjvie">
+                    <div data-picture data-alt="Twitter">
+                        <div data-src="{{ site.baseurl }}/img/twitter16.png"></div>
+                        <div data-src="{{ site.baseurl }}/img/twitter32.png"     data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                        <noscript><img src="{{ site.baseurl }}/img/twitter16.png" alt="Twitter"></noscript>
+                    </div>
+                </a>
+                <a href="http://github.com/jilljenn">
+                    <div data-picture data-alt="Github">
+                        <div data-src="{{ site.baseurl }}/img/octocat16.png"></div>
+                        <div data-src="{{ site.baseurl }}/img/octocat32.png"     data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                        <noscript><img src="{{ site.baseurl }}/img/octocat16.png" alt="Github"></noscript>
+                    </div>
+                </a>
+            </div>
+            <div class="avatar" data-picture data-alt="avatar">
+                <div data-src="{{ site.avatar }}?s=54"></div>
+                <div data-src="{{ site.avatar }}?s=108" data-media="(-webkit-min-device-pixel-ratio: 2)"></div>
+                <noscript><img src="{{ site.avatar }}?s=54" alt="avatar"></noscript>
+            </div>
+        </div>
+        <h5 class="logo"><a href="/">{{ site.initials }}</a></h5>
+        <nav class="main">
+            <ul>
+                <li><a data-id="phd" href="/"{% if page.nav == "phd" %} class="active"{% else %}{% endif %}>Thèse</a></li>
+                <li><a data-id="publications" href="/publications"{% if page.nav == "publications" %} class="active"{% else %}{% endif %}>Publications</a></li>
+                <li><a data-id="slides" href="/slides"{% if page.nav == "slides" %} class="active"{% else %}{% endif %}>Slides</a></li>
+            </ul>
+        </nav>
+        <div class="nav-slider">
+            <div class="nav-selection {{ page.nav }}"></div>
+        </div>
+<!--        <div class="subnav-slider">
+            <div class="subnav-selection {{ page.subnav }}"></div>
+        </div>
+        <nav class="subnav">
+            <ul>
+                {% if page.subnav == "exemplar-home" %}
+                  <li><a href="/exemplar" class="active" data-subnav="exemplar-home">Home</a></li>
+                {% else %}
+                    <li><a href="/exemplar" data-subnav="exemplar-home">Home</a></li>
+                {% endif %}
+                {% if page.subnav == "exemplar-docs" %}
+                    <li><a href="/exemplar/docs" class="active" data-subnav="exemplar-docs">Docs</a></li>
+                {% else %}
+                    <li><a href="/exemplar/docs" data-subnav="exemplar-docs">Docs</a></li>
+                {% endif %}
+                {% if page.subnav == "download" %}
+                    <li><a href="https://github.com/tybenz/exemplar/archive/master.zip" class="active" data-subnav="download">Download</a></li>
+                {% else %}
+                    <li><a href="https://github.com/tybenz/exemplar/archive/master.zip" data-subnav="download">Download</a></li>
+                {% endif %}
+            </ul>
+        </nav> -->
+    </div>
+</header>

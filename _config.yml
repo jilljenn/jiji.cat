@@ -1,0 +1,6 @@
+highlighter: pygments
+permalink: /post/:title
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', '.git']
+author: Jill-Jênn Vie
+initials: Jill-Jênn Vie
+avatar: /img/avatar.png
