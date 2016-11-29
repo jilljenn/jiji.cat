@@ -20,6 +20,10 @@ ENS Paris-Saclay
 
 RER B station Bagneux  
 
+### Inscrivez-vous
+
+Votre nom doit figurer sur la liste pour pouvoir entrer.
+
 <div>
 <input type="text" id="mail" onkeydown="if(event.keyCode == 13) {document.getElementById('btn').click(); this.value = ''};" placeholder="Entrez votre nom ou mail" />
 <button id="btn" onclick="microAjax('/register/', function () {document.getElementById('btn').innerHTML = 'Merci !'}, 'mail=' + document.getElementById('mail').value)">Je viendrai !</button>
