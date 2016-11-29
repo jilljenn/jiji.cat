@@ -5,14 +5,20 @@ layout: default
 ---
 J'ai le plaisir de vous inviter à ma soutenance :
 
-> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 23/11)
+> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 29/11)
 
 ## Lundi 5 décembre 2016 à 15 h
 
+<img src="/img/map.png" width="300" style="float: right; max-width: 50%" />
+
 Amphi Chemla  
-École normale supérieure de Paris-Saclay  
-61 avenue du Président-Wilson  
+de l'Institut d'Alembert
+
+ENS Paris-Saclay  
+[61 avenue du Président-Wilson](http://lab.vianavigo.com/itineraire?arrival=4313%7CSite%7CEcole+Normale+Supérieure%7C94230%7CCachan%7C%7C&date=2016-12-05T14%3A40&departure=%7CFreeSel%7C%7C%7C%7C%7C&journeyProfil=00&preferences=1111%7C1&sens=-1)  
 94230 Cachan
+
+RER B station Bagneux  
 
 <div>
 <input type="text" id="mail" onkeydown="if(event.keyCode == 13) {document.getElementById('btn').click(); this.value = ''};" placeholder="Entrez votre nom ou mail" />
@@ -27,6 +33,6 @@ J'ai recensé de tels systèmes utilisés dans diverses communautés, et je les 
 
 ### Thèse
 
-- [PDF](cat.pdf) version du 23/11
+- [PDF](cat.pdf) (980 ko) version du 29/11
 - [Fichiers Markdown](https://github.com/jilljenn/phd) sur GitHub, merci [pandoc](http://pandoc.org), le couteau suisse qui convertit tout vers tout !
 - [Code sur GitHub](https://github.com/jilljenn/qna) pour reproduire mes expériences
