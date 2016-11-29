@@ -9,7 +9,7 @@ J'ai le plaisir de vous inviter à ma soutenance :
 
 ## Lundi 5 décembre 2016 à 15 h
 
-<img src="/img/map.png" width="300" style="float: right; max-width: 50%" />
+<a href="/img/map.png"><img src="/img/map.png" width="300" style="float: right; max-width: 50%" /></a>
 
 Amphi Chemla  
 de l'Institut d'Alembert
