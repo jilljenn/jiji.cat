@@ -3,9 +3,9 @@ title: Tests adaptatifs
 nav: phd
 layout: default
 ---
-J'ai le plaisir de vous inviter à ma soutenance :
+J'ai eu le plaisir de vous inviter à ma soutenance :
 
-> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 29/11)
+> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 31/12)
 
 ## Lundi 5 décembre 2016 à 15 h
 
@@ -18,16 +18,7 @@ ENS Paris-Saclay
 [61 avenue du Président-Wilson](http://lab.vianavigo.com/itineraire?arrival=4313%7CSite%7CEcole+Normale+Supérieure%7C94230%7CCachan%7C%7C&date=2016-12-05T14%3A40&departure=%7CFreeSel%7C%7C%7C%7C%7C&journeyProfil=00&preferences=1111%7C1&sens=-1)  
 94230 Cachan
 
-RER B station Bagneux  
-
-### Inscrivez-vous
-
-Votre nom doit figurer sur la liste pour pouvoir entrer.
-
-<div>
-<input type="text" id="mail" onkeydown="if(event.keyCode == 13) {document.getElementById('btn').click(); this.value = ''};" placeholder="Entrez votre nom ou mail" />
-<button id="btn" onclick="microAjax('/register/', function () {document.getElementById('btn').innerHTML = 'Merci !'}, 'mail=' + document.getElementById('mail').value)">Je viendrai !</button>
-</div>
+RER B station Bagneux
 
 ### Résumé
 
@@ -37,6 +28,9 @@ J'ai recensé de tels systèmes utilisés dans diverses communautés, et je les 
 
 ### Thèse
 
-- [PDF](cat.pdf) (980 ko) version du 29/11
+- [PDF léger](cat-light.pdf) (1 Mo)
+- [PDF officiel](cat.pdf) (4,1 Mo)
+- [PDF hipster](cat-hipster.pdf) (4 Mo, police fancy)
 - [Fichiers Markdown](https://github.com/jilljenn/phd) sur GitHub, merci [pandoc](http://pandoc.org), le couteau suisse qui convertit tout vers tout !
 - [Code sur GitHub](https://github.com/jilljenn/qna) pour reproduire mes expériences
+- [Ces pages sur GitHub](https://github.com/jilljenn/jiji.cat) pour faire un peu de [méta](http://club-meta.fr)
