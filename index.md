@@ -5,7 +5,7 @@ layout: default
 ---
 J'ai eu le plaisir de vous inviter à ma soutenance :
 
-> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 31/12)
+> *Modèles de tests adaptatifs pour le diagnostic de connaissances dans un cadre d’apprentissage à grande échelle* ([PDF](cat.pdf) du 6 janvier 2017)
 
 ## Lundi 5 décembre 2016 à 15 h
 
@@ -28,9 +28,8 @@ J'ai recensé de tels systèmes utilisés dans diverses communautés, et je les 
 
 ### Thèse
 
-- [PDF léger](cat-light.pdf) (1 Mo)
-- [PDF officiel](cat.pdf) (4,1 Mo)
-- [PDF hipster](cat-hipster.pdf) (4 Mo, police fancy)
-- [Fichiers Markdown](https://github.com/jilljenn/phd) sur GitHub, merci [pandoc](http://pandoc.org), le couteau suisse qui convertit tout vers tout !
+- [PDF officiel](cat.pdf), valide PDF/A1-b, avec des polices de hipster, compilé avec [LuaLaTeX](http://www.luatex.org) (6 Mo)
+- [PDF](cat-xelatex.pdf), avec les polices LaTeX classiques, compilé avec [XeLaTeX](https://doc.ubuntu-fr.org/xelatex) (5,6 Mo)
+- [Sources de la thèse](https://github.com/jilljenn/phd) sur GitHub que je vous invite à consulter
 - [Code sur GitHub](https://github.com/jilljenn/qna) pour reproduire mes expériences
 - [Ces pages sur GitHub](https://github.com/jilljenn/jiji.cat) pour faire un peu de [méta](http://club-meta.fr)
